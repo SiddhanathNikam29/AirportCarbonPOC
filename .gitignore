@@ -1,0 +1,56 @@
+# =========================
+# ASP.NET Core
+# =========================
+bin/
+obj/
+out/
+*.db
+*.log
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db-shm
+*.db-wal
+
+# Visual Studio
+.vs/
+.vscode/
+*.swp
+*.tmp
+
+# Dotnet publish artifacts
+publish/
+dist/
+wwwroot/lib/
+
+# =========================
+# React JS
+# =========================
+node_modules/
+build/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# SQL Server Database Project - VS generated
+*.dbmdl
+*.jfm
